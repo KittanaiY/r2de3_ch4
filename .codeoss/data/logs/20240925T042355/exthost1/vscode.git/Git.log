@@ -1,0 +1,58 @@
+2024-09-25 04:24:03.347 [info] Log level: Info
+2024-09-25 04:24:03.347 [info] Validating found git in: "git"
+2024-09-25 04:24:03.347 [info] Using git "2.34.1" from "git"
+2024-09-25 04:24:03.347 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-25 04:24:03.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.347 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-25 04:24:03.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.347 [info] > git rev-parse --show-toplevel [2326ms]
+2024-09-25 04:24:03.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.347 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-25 04:24:03.347 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.348 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-25 04:24:03.348 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.501 [info] > git rev-parse --show-toplevel [138ms]
+2024-09-25 04:24:03.501 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.518 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-25 04:24:03.518 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.535 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-25 04:24:03.535 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.553 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-25 04:24:03.553 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:24:03.989 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-25 04:24:03.989 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 04:26:37.277 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-25 04:26:37.297 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-25 04:26:37.313 [info] Open repository: /home/kittanaiyam/r2de3-workshops
+2024-09-25 04:26:37.334 [info] > git config --get commit.template [3ms]
+2024-09-25 04:26:37.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-25 04:26:37.354 [warning] No such branch: master.
+2024-09-25 04:26:37.374 [info] > git status -z -uall [4ms]
+2024-09-25 04:26:37.406 [info] > git config --get commit.template [9ms]
+2024-09-25 04:26:37.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 04:26:37.422 [warning] No such branch: master.
+2024-09-25 04:26:37.438 [info] > git status -z -uall [2ms]
+2024-09-25 04:26:37.918 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-25 04:26:38.777 [info] > git config --get commit.template [18ms]
+2024-09-25 04:26:38.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 04:26:38.793 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 04:26:38.795 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 04:26:38.812 [info] > git status -z -uall [3ms]
+2024-09-25 04:26:38.837 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-09-25 04:26:38.854 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-09-25 04:26:38.872 [info] > git diff --name-status -z --diff-filter=ADMR 2f9ef91ef7973e79446253965e6c378256acf4be...refs/remotes/origin/main [1ms]
+2024-09-25 04:26:54.773 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-25 04:26:57.187 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-25 04:27:03.696 [info] > git show --textconv :dags/example.py [19ms]
+2024-09-25 04:27:03.697 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [3ms]
+2024-09-25 04:27:03.716 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]

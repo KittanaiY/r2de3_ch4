@@ -1,0 +1,15 @@
+I0925 07:40:08.223033    8663 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0925 07:40:08.223101    8663 serve.go:44] Command line: ["/home/kittanaiyam/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0925 07:40:08.225367    8663 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0925 07:40:08.272426    8663 configuration.go:171] product updateChannel will be used
+I0925 07:40:08.272469    8663 configuration.go:568] language thresholds: map[]
+I0925 07:40:08.272500    8663 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0925 07:40:08.272527    8663 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001236749 StopSequences:map[] DataFilePromptLines:0}
+I0925 07:40:08.272583    8663 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001236799 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0925 07:40:08.272742    8663 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0925 07:40:08.272758    8663 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0925 07:40:08.272795    8663 configuration.go:265] Configured settings for canCancelRequests: true
+I0925 07:40:08.272804    8663 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0925 07:40:08.332102    8663 handler.go:142] cancel was requested for: 1, needs to be canceled: false
+I0925 07:40:08.332120    8663 handler.go:146] cancel requested for 1 but not found
+[Error - 7:40:11 AM] Server process exited with code 0.

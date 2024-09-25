@@ -1,0 +1,16 @@
+2024-07-25 12:46:18.302 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+
+2024-07-25 12:46:18.303 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+
+2024-07-25 12:46:46.498 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "9"
+
+2024-07-25 12:48:23.819 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "17"
+
+2024-07-25 12:49:20.903 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "51"
+
+2024-07-25 12:49:22.433 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "57"
+
+2024-07-25 12:55:37.252 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "95"
+
+2024-07-25 12:56:46.416 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "114"
+

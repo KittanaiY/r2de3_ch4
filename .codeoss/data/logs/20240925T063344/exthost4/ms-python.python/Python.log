@@ -1,0 +1,6 @@
+2024-09-25 07:41:37.586 [info] Default formatter is set to null for workspace /home/kittanaiyam
+2024-09-25 07:41:37.588 [info] Test server listening.
+2024-09-25 07:41:37.589 [info] Python interpreter path: /bin/python
+2024-09-25 07:41:37.964 [info] > pyenv which python
+2024-09-25 07:41:37.964 [info] cwd: .
+2024-09-25 07:41:42.285 [info] Starting Jedi language server for kittanaiyam.

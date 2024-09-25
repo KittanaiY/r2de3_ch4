@@ -1,0 +1,371 @@
+2024-09-25 06:36:11.585 [info] Log level: Info
+2024-09-25 06:36:11.585 [info] Validating found git in: "git"
+2024-09-25 06:36:11.585 [info] Using git "2.34.1" from "git"
+2024-09-25 06:36:11.585 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-25 06:36:11.585 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.585 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-25 06:36:11.585 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2024-09-25 06:36:11.585 [info] Open repository: /home/kittanaiyam/r2de3-workshops
+2024-09-25 06:36:11.585 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-25 06:36:11.585 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.585 [info] > git config --get commit.template [21ms]
+2024-09-25 06:36:11.586 [info] > git rev-parse --show-toplevel [16ms]
+2024-09-25 06:36:11.587 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-09-25 06:36:11.613 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 06:36:11.618 [info] > git rev-parse --show-toplevel [19ms]
+2024-09-25 06:36:11.618 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.638 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2024-09-25 06:36:11.654 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-25 06:36:11.654 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.667 [info] > git status -z -uall [16ms]
+2024-09-25 06:36:11.705 [info] > git merge-base refs/heads/main refs/remotes/origin/main [23ms]
+2024-09-25 06:36:11.719 [info] > git rev-parse --show-toplevel [52ms]
+2024-09-25 06:36:11.719 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.735 [info] > git config --get commit.template [31ms]
+2024-09-25 06:36:11.735 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [17ms]
+2024-09-25 06:36:11.745 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-25 06:36:11.745 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2024-09-25 06:36:11.808 [info] > git diff --name-status -z --diff-filter=ADMR 2f9ef91ef7973e79446253965e6c378256acf4be...refs/remotes/origin/main [64ms]
+2024-09-25 06:36:11.818 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 06:36:11.836 [info] > git rev-parse --show-toplevel [74ms]
+2024-09-25 06:36:11.836 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.850 [info] > git rev-parse refs/remotes/origin/main [31ms]
+2024-09-25 06:36:11.862 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-25 06:36:11.862 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:11.864 [info] > git status -z -uall [4ms]
+2024-09-25 06:36:12.031 [info] > git show --textconv :dags/example.py [12ms]
+2024-09-25 06:36:12.033 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [3ms]
+2024-09-25 06:36:12.043 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]
+2024-09-25 06:36:12.126 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-25 06:36:17.518 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-25 06:36:17.518 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:17.546 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-25 06:36:17.546 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:17.572 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-25 06:36:17.572 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 06:36:17.792 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-25 07:04:29.246 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [17ms]
+2024-09-25 07:04:29.248 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [3ms]
+2024-09-25 07:04:29.266 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:05:08.979 [info] > git config --get commit.template [16ms]
+2024-09-25 07:05:08.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:05:08.995 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:08.996 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:05:09.014 [info] > git status -z -uall [3ms]
+2024-09-25 07:05:14.056 [info] > git config --get commit.template [16ms]
+2024-09-25 07:05:14.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:05:14.071 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:14.073 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:05:14.089 [info] > git status -z -uall [2ms]
+2024-09-25 07:05:36.700 [info] > git config --get commit.template [18ms]
+2024-09-25 07:05:36.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:05:36.715 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:36.716 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:05:36.734 [info] > git status -z -uall [2ms]
+2024-09-25 07:05:45.694 [info] > git config --get commit.template [15ms]
+2024-09-25 07:05:45.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:05:45.710 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:45.711 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:05:45.728 [info] > git status -z -uall [3ms]
+2024-09-25 07:05:52.003 [info] > git config --get commit.template [18ms]
+2024-09-25 07:05:52.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:05:52.019 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:52.020 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:05:52.037 [info] > git status -z -uall [2ms]
+2024-09-25 07:05:57.076 [info] > git config --get commit.template [18ms]
+2024-09-25 07:05:57.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:05:57.092 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:05:57.094 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-25 07:05:57.112 [info] > git status -z -uall [2ms]
+2024-09-25 07:06:16.007 [info] > git config --get commit.template [15ms]
+2024-09-25 07:06:16.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-25 07:06:16.022 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:06:16.023 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:06:16.040 [info] > git status -z -uall [3ms]
+2024-09-25 07:06:24.425 [info] > git config --get commit.template [17ms]
+2024-09-25 07:06:24.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:06:24.441 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:06:24.442 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:06:24.460 [info] > git status -z -uall [3ms]
+2024-09-25 07:06:24.531 [info] > git show --textconv :dags/example.py [17ms]
+2024-09-25 07:06:24.532 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [4ms]
+2024-09-25 07:06:24.549 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]
+2024-09-25 07:06:31.943 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [15ms]
+2024-09-25 07:06:31.946 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [3ms]
+2024-09-25 07:06:31.962 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:06:34.221 [info] > git show --textconv :dags/example.py [18ms]
+2024-09-25 07:06:34.222 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [3ms]
+2024-09-25 07:06:34.241 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [4ms]
+2024-09-25 07:06:35.976 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [17ms]
+2024-09-25 07:06:35.978 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [4ms]
+2024-09-25 07:06:35.996 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [1ms]
+2024-09-25 07:07:11.428 [info] > git config --get commit.template [16ms]
+2024-09-25 07:07:11.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:07:11.444 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:07:11.445 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:07:11.462 [info] > git status -z -uall [2ms]
+2024-09-25 07:07:16.025 [info] > git show --textconv :dags/example.py [17ms]
+2024-09-25 07:07:16.027 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [4ms]
+2024-09-25 07:07:16.045 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]
+2024-09-25 07:07:18.810 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [17ms]
+2024-09-25 07:07:18.812 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [3ms]
+2024-09-25 07:07:18.829 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:07:22.617 [info] > git config --get commit.template [17ms]
+2024-09-25 07:07:22.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:07:22.633 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:07:22.634 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:07:22.653 [info] > git status -z -uall [2ms]
+2024-09-25 07:07:27.689 [info] > git config --get commit.template [17ms]
+2024-09-25 07:07:27.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:07:27.706 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:07:27.709 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-25 07:07:27.726 [info] > git status -z -uall [2ms]
+2024-09-25 07:09:01.026 [info] > git show --textconv :dags/ws4_exercise2_taskflow.py [17ms]
+2024-09-25 07:09:01.028 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise2_taskflow.py [3ms]
+2024-09-25 07:09:01.045 [info] > git cat-file -s ab9b352466ec52c935b10ff864fd38c78593cb14 [2ms]
+2024-09-25 07:09:31.320 [info] > git show --textconv :dags/example.py [17ms]
+2024-09-25 07:09:31.321 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [3ms]
+2024-09-25 07:09:31.338 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]
+2024-09-25 07:09:42.860 [info] > git show --textconv :dags/ws4_exercise2_taskflow.py [17ms]
+2024-09-25 07:09:42.861 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise2_taskflow.py [3ms]
+2024-09-25 07:09:42.879 [info] > git cat-file -s ab9b352466ec52c935b10ff864fd38c78593cb14 [2ms]
+2024-09-25 07:09:50.572 [info] > git config --get commit.template [16ms]
+2024-09-25 07:09:50.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:09:50.587 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:09:50.589 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:09:50.606 [info] > git status -z -uall [3ms]
+2024-09-25 07:10:01.829 [info] > git config --get commit.template [17ms]
+2024-09-25 07:10:01.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:10:01.845 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:10:01.846 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:10:01.865 [info] > git status -z -uall [2ms]
+2024-09-25 07:10:20.664 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [15ms]
+2024-09-25 07:10:20.665 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [3ms]
+2024-09-25 07:10:20.681 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:10:28.887 [info] > git config --get commit.template [15ms]
+2024-09-25 07:10:28.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-25 07:10:28.904 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:10:28.905 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:10:28.923 [info] > git status -z -uall [3ms]
+2024-09-25 07:10:33.957 [info] > git config --get commit.template [15ms]
+2024-09-25 07:10:33.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:10:33.972 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:10:33.974 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:10:33.990 [info] > git status -z -uall [2ms]
+2024-09-25 07:15:26.008 [info] > git config --get commit.template [2ms]
+2024-09-25 07:15:26.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:15:26.041 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:15:26.043 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:15:26.060 [info] > git status -z -uall [3ms]
+2024-09-25 07:15:54.985 [info] > git config --get commit.template [17ms]
+2024-09-25 07:15:54.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-25 07:15:55.000 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:15:55.001 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:15:55.019 [info] > git status -z -uall [2ms]
+2024-09-25 07:16:02.558 [info] > git config --get commit.template [17ms]
+2024-09-25 07:16:02.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:16:02.574 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:16:02.575 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:16:02.593 [info] > git status -z -uall [3ms]
+2024-09-25 07:16:08.583 [info] > git config --get commit.template [16ms]
+2024-09-25 07:16:08.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:16:08.597 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:16:08.599 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:16:08.616 [info] > git status -z -uall [3ms]
+2024-09-25 07:17:05.831 [info] > git show --textconv :dags/example.py [17ms]
+2024-09-25 07:17:05.832 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [3ms]
+2024-09-25 07:17:05.849 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [2ms]
+2024-09-25 07:17:09.536 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [17ms]
+2024-09-25 07:17:09.537 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [3ms]
+2024-09-25 07:17:09.554 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:17:12.200 [info] > git show --textconv :dags/example.py [17ms]
+2024-09-25 07:17:12.201 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/example.py [2ms]
+2024-09-25 07:17:12.218 [info] > git cat-file -s 451724f073be1cfe3742f24c1e771a22d05d0f84 [1ms]
+2024-09-25 07:17:13.580 [info] > git show --textconv :dags/ws4_exercise1_taskflow.py [17ms]
+2024-09-25 07:17:13.582 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise1_taskflow.py [4ms]
+2024-09-25 07:17:13.599 [info] > git cat-file -s 61377060d33dfece446b593492309ce632e22e7d [2ms]
+2024-09-25 07:22:52.240 [info] > git show --textconv :dags/ws4_exercise2_taskflow.py [16ms]
+2024-09-25 07:22:52.241 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise2_taskflow.py [2ms]
+2024-09-25 07:22:52.257 [info] > git cat-file -s ab9b352466ec52c935b10ff864fd38c78593cb14 [2ms]
+2024-09-25 07:23:24.020 [info] > git config --get commit.template [16ms]
+2024-09-25 07:23:24.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:23:24.036 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:23:24.038 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:23:24.055 [info] > git status -z -uall [2ms]
+2024-09-25 07:23:29.093 [info] > git config --get commit.template [16ms]
+2024-09-25 07:23:29.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:23:29.109 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:23:29.110 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:23:29.128 [info] > git status -z -uall [3ms]
+2024-09-25 07:24:53.602 [info] > git config --get commit.template [16ms]
+2024-09-25 07:24:53.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:24:53.618 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:24:53.620 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-25 07:24:53.637 [info] > git status -z -uall [2ms]
+2024-09-25 07:26:39.270 [info] > git show --textconv :dags/ws4_exercise3.py [16ms]
+2024-09-25 07:26:39.271 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [2ms]
+2024-09-25 07:26:39.289 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [2ms]
+2024-09-25 07:27:19.869 [info] > git config --get commit.template [19ms]
+2024-09-25 07:27:19.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-25 07:27:19.885 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:19.887 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:27:19.904 [info] > git status -z -uall [3ms]
+2024-09-25 07:27:24.938 [info] > git config --get commit.template [16ms]
+2024-09-25 07:27:24.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:24.954 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:24.956 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:27:24.973 [info] > git status -z -uall [2ms]
+2024-09-25 07:27:30.007 [info] > git config --get commit.template [16ms]
+2024-09-25 07:27:30.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:30.023 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:30.024 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:27:30.042 [info] > git status -z -uall [2ms]
+2024-09-25 07:27:35.079 [info] > git config --get commit.template [16ms]
+2024-09-25 07:27:35.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:35.095 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:35.097 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:27:35.115 [info] > git status -z -uall [2ms]
+2024-09-25 07:27:40.151 [info] > git config --get commit.template [15ms]
+2024-09-25 07:27:40.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:40.167 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:40.168 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:27:40.186 [info] > git status -z -uall [3ms]
+2024-09-25 07:27:45.220 [info] > git config --get commit.template [17ms]
+2024-09-25 07:27:45.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:45.235 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:45.237 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:27:45.254 [info] > git status -z -uall [3ms]
+2024-09-25 07:27:50.424 [info] > git config --get commit.template [17ms]
+2024-09-25 07:27:50.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-25 07:27:50.441 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:50.443 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:27:50.476 [info] > git status -z -uall [19ms]
+2024-09-25 07:27:55.511 [info] > git config --get commit.template [16ms]
+2024-09-25 07:27:55.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:27:55.528 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:27:55.530 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:27:55.547 [info] > git status -z -uall [2ms]
+2024-09-25 07:28:41.468 [info] > git config --get commit.template [17ms]
+2024-09-25 07:28:41.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:28:41.483 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:28:41.485 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:28:41.503 [info] > git status -z -uall [3ms]
+2024-09-25 07:28:46.539 [info] > git config --get commit.template [15ms]
+2024-09-25 07:28:46.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:28:46.555 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:28:46.556 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:28:46.574 [info] > git status -z -uall [3ms]
+2024-09-25 07:28:51.610 [info] > git config --get commit.template [16ms]
+2024-09-25 07:28:51.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:28:51.626 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:28:51.627 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:28:51.645 [info] > git status -z -uall [3ms]
+2024-09-25 07:28:56.681 [info] > git config --get commit.template [16ms]
+2024-09-25 07:28:56.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:28:56.698 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:28:56.699 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:28:56.717 [info] > git status -z -uall [3ms]
+2024-09-25 07:29:01.753 [info] > git config --get commit.template [16ms]
+2024-09-25 07:29:01.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:29:01.769 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:29:01.770 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:29:01.788 [info] > git status -z -uall [3ms]
+2024-09-25 07:29:06.823 [info] > git config --get commit.template [16ms]
+2024-09-25 07:29:06.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:29:06.839 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:29:06.841 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:29:06.858 [info] > git status -z -uall [2ms]
+2024-09-25 07:29:11.880 [info] > git config --get commit.template [3ms]
+2024-09-25 07:29:11.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:29:11.913 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:29:11.914 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:29:11.932 [info] > git status -z -uall [2ms]
+2024-09-25 07:29:16.967 [info] > git config --get commit.template [16ms]
+2024-09-25 07:29:16.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:29:16.983 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:29:16.985 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:29:17.002 [info] > git status -z -uall [3ms]
+2024-09-25 07:29:22.533 [info] > git config --get commit.template [16ms]
+2024-09-25 07:29:22.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:29:22.548 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:29:22.549 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:29:22.566 [info] > git status -z -uall [2ms]
+2024-09-25 07:30:05.145 [info] > git config --get commit.template [20ms]
+2024-09-25 07:30:05.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-25 07:30:05.161 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:30:05.164 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-25 07:30:05.182 [info] > git status -z -uall [2ms]
+2024-09-25 07:30:10.218 [info] > git config --get commit.template [17ms]
+2024-09-25 07:30:10.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:30:10.234 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:30:10.236 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:30:10.253 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:34.324 [info] > git config --get commit.template [18ms]
+2024-09-25 07:32:34.325 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:32:34.340 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:34.342 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:32:34.361 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:39.463 [info] > git config --get commit.template [17ms]
+2024-09-25 07:32:39.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:32:39.478 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:39.480 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:32:39.498 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:44.536 [info] > git config --get commit.template [16ms]
+2024-09-25 07:32:44.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:32:44.552 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:44.554 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:32:44.572 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:49.607 [info] > git config --get commit.template [15ms]
+2024-09-25 07:32:49.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:32:49.623 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:49.625 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:32:49.642 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:54.680 [info] > git config --get commit.template [18ms]
+2024-09-25 07:32:54.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:32:54.696 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:54.698 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:32:54.715 [info] > git status -z -uall [2ms]
+2024-09-25 07:32:59.750 [info] > git config --get commit.template [16ms]
+2024-09-25 07:32:59.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:32:59.767 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:32:59.768 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:32:59.786 [info] > git status -z -uall [3ms]
+2024-09-25 07:33:08.020 [info] > git config --get commit.template [17ms]
+2024-09-25 07:33:08.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:33:08.038 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:33:08.040 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:33:08.059 [info] > git status -z -uall [2ms]
+2024-09-25 07:34:05.362 [info] > git config --get commit.template [16ms]
+2024-09-25 07:34:05.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:34:05.378 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:34:05.380 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-25 07:34:05.397 [info] > git status -z -uall [3ms]
+2024-09-25 07:34:10.434 [info] > git config --get commit.template [17ms]
+2024-09-25 07:34:10.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-25 07:34:10.450 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:34:10.452 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:34:10.469 [info] > git status -z -uall [2ms]
+2024-09-25 07:34:15.509 [info] > git config --get commit.template [20ms]
+2024-09-25 07:34:15.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-25 07:34:15.528 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:34:15.530 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:34:15.548 [info] > git status -z -uall [2ms]
+2024-09-25 07:34:22.688 [info] > git config --get commit.template [17ms]
+2024-09-25 07:34:22.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-25 07:34:22.703 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:34:22.705 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-25 07:34:22.722 [info] > git status -z -uall [2ms]

@@ -1,0 +1,139 @@
+2024-07-25 09:12:11.872 [info] Extension host with pid 2718 started
+2024-07-25 09:12:11.873 [error] Error: EEXIST: file already exists, open '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock'
+2024-07-25 09:12:11.883 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-25 09:12:11.884 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': The pid 1468 appears to be gone.
+2024-07-25 09:12:11.884 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Deleting a stale lock.
+2024-07-25 09:12:11.901 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Lock acquired.
+2024-07-25 09:12:12.040 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-25 09:12:12.158 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-25 09:12:12.158 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-25 09:12:12.654 [info] Eager extensions activated
+2024-07-25 09:12:12.654 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 09:12:12.655 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 09:12:12.655 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 09:12:12.656 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 09:12:12.656 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 09:12:15.209 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 09:12:15.210 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 09:12:15.211 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-25 09:12:52.000 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-07-25 09:38:34.385 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:34.415 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:38:34.694 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:34.695 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:38:35.260 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:35.260 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:38:35.765 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:35.765 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:38:39.994 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:39.994 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:38:40.358 [error] [ms-python.python] provider FAILED
+2024-07-25 09:38:40.359 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:39:54.301 [error] [ms-python.python] provider FAILED
+2024-07-25 09:39:54.302 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:39:55.329 [error] [ms-python.python] provider FAILED
+2024-07-25 09:39:55.329 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:07.921 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:07.922 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:09.605 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:09.606 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:10.734 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:10.735 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:11.565 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:11.565 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:12.607 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:12.608 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:15.034 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:15.035 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:15.863 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:15.864 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:16.829 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:16.830 [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:17.729 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:17.729 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:18.223 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:18.223 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:19.284 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:19.285 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-25 09:40:19.815 [error] [ms-python.python] provider FAILED
+2024-07-25 09:40:19.816 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)

@@ -1,0 +1,11 @@
+2024-07-24 08:05:20.204 [info] 
+
+
+
+
+2024-07-24 08:05:20.204 [info] Extension host agent started.
+2024-07-24 08:05:20.205 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kittanaiyam/.codeoss/extensions
+2024-07-24 08:05:20.222 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kittanaiyam/.codeoss/extensions
+2024-07-24 08:05:23.034 [info] [127.0.0.1][3e43ea86][ManagementConnection] New connection established.
+2024-07-24 08:05:23.142 [info] [127.0.0.1][ce7f96fe][ExtensionHostConnection] New connection established.
+2024-07-24 08:05:24.079 [info] [127.0.0.1][ce7f96fe][ExtensionHostConnection] <1468> Launched Extension Host Process.

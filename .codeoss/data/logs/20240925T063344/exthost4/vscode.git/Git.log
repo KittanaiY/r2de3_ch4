@@ -1,0 +1,218 @@
+2024-09-25 07:41:38.092 [info] Log level: Info
+2024-09-25 07:41:38.092 [info] Validating found git in: "git"
+2024-09-25 07:41:38.092 [info] Using git "2.34.1" from "git"
+2024-09-25 07:41:38.092 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-25 07:41:38.092 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:38.092 [info] > git rev-parse --show-toplevel [16ms]
+2024-09-25 07:41:38.092 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-25 07:41:38.092 [info] Open repository: /home/kittanaiyam/r2de3-workshops
+2024-09-25 07:41:41.016 [info] > git config --get commit.template [2933ms]
+2024-09-25 07:41:41.073 [info] > git rev-parse --show-toplevel [2982ms]
+2024-09-25 07:41:41.073 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.196 [info] > git check-ignore -v -z --stdin [159ms]
+2024-09-25 07:41:41.221 [info] > git rev-parse --show-toplevel [94ms]
+2024-09-25 07:41:41.221 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [124ms]
+2024-09-25 07:41:41.314 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:41:41.326 [info] > git rev-parse --show-toplevel [43ms]
+2024-09-25 07:41:41.326 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.360 [info] > git rev-parse refs/remotes/origin/main [46ms]
+2024-09-25 07:41:41.416 [info] > git status -z -uall [23ms]
+2024-09-25 07:41:41.417 [info] > git rev-parse --show-toplevel [58ms]
+2024-09-25 07:41:41.417 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.573 [info] > git merge-base refs/heads/main refs/remotes/origin/main [52ms]
+2024-09-25 07:41:41.605 [info] > git rev-parse --show-toplevel [119ms]
+2024-09-25 07:41:41.605 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.749 [info] > git check-ignore -v -z --stdin [111ms]
+2024-09-25 07:41:41.803 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [198ms]
+2024-09-25 07:41:41.826 [info] > git config --get commit.template [256ms]
+2024-09-25 07:41:41.831 [info] > git diff --name-status -z --diff-filter=ADMR 2f9ef91ef7973e79446253965e6c378256acf4be...refs/remotes/origin/main [7ms]
+2024-09-25 07:41:41.832 [info] > git rev-parse --show-toplevel [153ms]
+2024-09-25 07:41:41.832 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-09-25 07:41:41.897 [warning] ENOENT: no such file or directory, open '/home/kittanaiyam/r2de3-workshops/.git/refs/remotes/origin/main'
+2024-09-25 07:41:41.899 [info] > git rev-parse --show-toplevel [26ms]
+2024-09-25 07:41:41.899 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:41.954 [info] > git rev-parse refs/remotes/origin/main [56ms]
+2024-09-25 07:41:41.976 [info] > git rev-parse --show-toplevel [28ms]
+2024-09-25 07:41:41.976 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-25 07:41:42.023 [info] > git status -z -uall [50ms]
+2024-09-25 07:41:42.023 [info] > git show --textconv :dags/ws4_exercise3.py [25ms]
+2024-09-25 07:41:42.028 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [8ms]
+2024-09-25 07:41:42.051 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [2ms]
+2024-09-25 07:43:34.344 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-25 07:43:34.365 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-25 07:43:34.376 [info] Open repository: /home/kittanaiyam
+2024-09-25 07:43:34.399 [info] > git config --get commit.template [1ms]
+2024-09-25 07:43:34.419 [info] No remotes found in the git config file.
+2024-09-25 07:43:34.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:43:34.420 [warning] No such branch: master.
+2024-09-25 07:43:34.446 [info] > git status -z -uall [5ms]
+2024-09-25 07:43:34.576 [info] > git config --get commit.template [2ms]
+2024-09-25 07:43:34.596 [info] No remotes found in the git config file.
+2024-09-25 07:43:34.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:43:34.597 [warning] No such branch: master.
+2024-09-25 07:43:34.620 [info] > git status -z -uall [5ms]
+2024-09-25 07:43:35.093 [info] > git check-ignore -v -z --stdin [20ms]
+2024-09-25 07:43:35.094 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-25 07:43:37.117 [info] No remotes found in the git config file.
+2024-09-25 07:43:37.118 [info] > git config --get commit.template [20ms]
+2024-09-25 07:43:37.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:43:37.118 [warning] No such branch: master.
+2024-09-25 07:43:37.142 [info] > git status -z -uall [5ms]
+2024-09-25 07:43:42.192 [info] > git config --get commit.template [20ms]
+2024-09-25 07:43:42.192 [info] No remotes found in the git config file.
+2024-09-25 07:43:42.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:43:42.193 [warning] No such branch: master.
+2024-09-25 07:43:42.216 [info] > git status -z -uall [4ms]
+2024-09-25 07:43:51.580 [info] > git config --get commit.template [5ms]
+2024-09-25 07:43:51.600 [info] No remotes found in the git config file.
+2024-09-25 07:43:51.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:43:51.601 [warning] No such branch: master.
+2024-09-25 07:43:51.626 [info] > git status -z -uall [5ms]
+2024-09-25 07:43:56.015 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [1ms]
+2024-09-25 07:43:56.037 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [2ms]
+2024-09-25 07:43:56.170 [info] > git show --textconv :dags/ws4_exercise3.py [2ms]
+2024-09-25 07:43:56.679 [info] No remotes found in the git config file.
+2024-09-25 07:43:56.680 [info] > git config --get commit.template [21ms]
+2024-09-25 07:43:56.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:43:56.681 [warning] No such branch: master.
+2024-09-25 07:43:56.741 [info] > git status -z -uall [41ms]
+2024-09-25 07:44:01.792 [info] No remotes found in the git config file.
+2024-09-25 07:44:01.794 [info] > git config --get commit.template [21ms]
+2024-09-25 07:44:01.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:01.794 [warning] No such branch: master.
+2024-09-25 07:44:01.823 [info] > git status -z -uall [8ms]
+2024-09-25 07:44:07.148 [info] > git config --get commit.template [2ms]
+2024-09-25 07:44:07.166 [info] No remotes found in the git config file.
+2024-09-25 07:44:07.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:07.168 [warning] No such branch: master.
+2024-09-25 07:44:07.196 [info] > git status -z -uall [8ms]
+2024-09-25 07:44:09.839 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [1ms]
+2024-09-25 07:44:09.859 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [1ms]
+2024-09-25 07:44:09.949 [info] > git show --textconv :dags/ws4_exercise3.py [2ms]
+2024-09-25 07:44:12.247 [info] No remotes found in the git config file.
+2024-09-25 07:44:12.248 [info] > git config --get commit.template [22ms]
+2024-09-25 07:44:12.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:12.249 [warning] No such branch: master.
+2024-09-25 07:44:12.276 [info] > git status -z -uall [9ms]
+2024-09-25 07:44:17.324 [info] No remotes found in the git config file.
+2024-09-25 07:44:17.326 [info] > git config --get commit.template [20ms]
+2024-09-25 07:44:17.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:17.326 [warning] No such branch: master.
+2024-09-25 07:44:17.356 [info] > git status -z -uall [9ms]
+2024-09-25 07:44:22.403 [info] No remotes found in the git config file.
+2024-09-25 07:44:22.404 [info] > git config --get commit.template [20ms]
+2024-09-25 07:44:22.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:22.405 [warning] No such branch: master.
+2024-09-25 07:44:22.432 [info] > git status -z -uall [9ms]
+2024-09-25 07:44:30.191 [info] No remotes found in the git config file.
+2024-09-25 07:44:30.192 [info] > git config --get commit.template [23ms]
+2024-09-25 07:44:30.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:30.193 [warning] No such branch: master.
+2024-09-25 07:44:30.222 [info] > git status -z -uall [10ms]
+2024-09-25 07:44:38.499 [info] No remotes found in the git config file.
+2024-09-25 07:44:38.500 [info] > git config --get commit.template [20ms]
+2024-09-25 07:44:38.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:44:38.501 [warning] No such branch: master.
+2024-09-25 07:44:38.527 [info] > git status -z -uall [8ms]
+2024-09-25 07:44:45.163 [info] > git config --get commit.template [4ms]
+2024-09-25 07:44:45.185 [info] No remotes found in the git config file.
+2024-09-25 07:44:45.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:44:45.186 [warning] No such branch: master.
+2024-09-25 07:44:45.214 [info] > git status -z -uall [8ms]
+2024-09-25 07:44:49.404 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [1ms]
+2024-09-25 07:44:49.424 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [2ms]
+2024-09-25 07:44:49.508 [info] > git show --textconv :dags/ws4_exercise3.py [2ms]
+2024-09-25 07:44:54.594 [info] > git config --get commit.template [21ms]
+2024-09-25 07:44:54.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:44:54.595 [warning] No such branch: master.
+2024-09-25 07:44:54.622 [info] > git status -z -uall [8ms]
+2024-09-25 07:44:59.656 [info] > git config --get commit.template [1ms]
+2024-09-25 07:44:59.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:44:59.677 [warning] No such branch: master.
+2024-09-25 07:44:59.704 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:04.753 [info] > git config --get commit.template [20ms]
+2024-09-25 07:45:04.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:04.754 [warning] No such branch: master.
+2024-09-25 07:45:04.783 [info] > git status -z -uall [11ms]
+2024-09-25 07:45:09.833 [info] > git config --get commit.template [22ms]
+2024-09-25 07:45:09.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:09.834 [warning] No such branch: master.
+2024-09-25 07:45:09.861 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:14.912 [info] > git config --get commit.template [21ms]
+2024-09-25 07:45:14.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:14.912 [warning] No such branch: master.
+2024-09-25 07:45:14.939 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:19.989 [info] > git config --get commit.template [20ms]
+2024-09-25 07:45:19.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:19.991 [warning] No such branch: master.
+2024-09-25 07:45:20.017 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:25.069 [info] > git config --get commit.template [21ms]
+2024-09-25 07:45:25.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:25.071 [warning] No such branch: master.
+2024-09-25 07:45:25.099 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:45.888 [info] > git config --get commit.template [20ms]
+2024-09-25 07:45:45.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:45:45.889 [warning] No such branch: master.
+2024-09-25 07:45:45.915 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:50.965 [info] > git config --get commit.template [21ms]
+2024-09-25 07:45:50.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-25 07:45:50.966 [warning] No such branch: master.
+2024-09-25 07:45:50.992 [info] > git status -z -uall [8ms]
+2024-09-25 07:45:59.399 [info] > git config --get commit.template [21ms]
+2024-09-25 07:45:59.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:45:59.400 [warning] No such branch: master.
+2024-09-25 07:45:59.428 [info] > git status -z -uall [9ms]
+2024-09-25 07:46:04.481 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:04.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:04.482 [warning] No such branch: master.
+2024-09-25 07:46:04.510 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:09.559 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:09.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:09.560 [warning] No such branch: master.
+2024-09-25 07:46:09.586 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:14.634 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:14.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:46:14.634 [warning] No such branch: master.
+2024-09-25 07:46:14.662 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:19.711 [info] > git config --get commit.template [22ms]
+2024-09-25 07:46:19.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:46:19.712 [warning] No such branch: master.
+2024-09-25 07:46:19.739 [info] > git status -z -uall [9ms]
+2024-09-25 07:46:24.788 [info] > git config --get commit.template [19ms]
+2024-09-25 07:46:24.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:24.789 [warning] No such branch: master.
+2024-09-25 07:46:24.816 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:29.863 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:29.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:29.865 [warning] No such branch: master.
+2024-09-25 07:46:29.893 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:34.941 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:34.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:34.944 [warning] No such branch: master.
+2024-09-25 07:46:34.971 [info] > git status -z -uall [8ms]
+2024-09-25 07:46:52.248 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:52.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:46:52.249 [warning] No such branch: master.
+2024-09-25 07:46:52.277 [info] > git status -z -uall [9ms]
+2024-09-25 07:46:57.327 [info] > git config --get commit.template [20ms]
+2024-09-25 07:46:57.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-25 07:46:57.329 [warning] No such branch: master.
+2024-09-25 07:46:57.358 [info] > git status -z -uall [9ms]
+2024-09-25 07:47:02.406 [info] > git config --get commit.template [22ms]
+2024-09-25 07:47:02.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-25 07:47:02.408 [warning] No such branch: master.
+2024-09-25 07:47:02.438 [info] > git status -z -uall [9ms]
+2024-09-25 07:47:02.814 [info] > git ls-files --stage -- /home/kittanaiyam/r2de3-workshops/dags/ws4_exercise3.py [2ms]
+2024-09-25 07:47:02.836 [info] > git cat-file -s 94e8d4c48e308fcd1ba85245317262eb767ed4c5 [1ms]
+2024-09-25 07:47:02.919 [info] > git show --textconv :dags/ws4_exercise3.py [2ms]

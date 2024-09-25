@@ -1,0 +1,180 @@
+2024-07-25 09:12:52.820 [info] Default formatter is set to null for workspace /home/kittanaiyam
+2024-07-25 09:12:52.820 [info] Test server listening.
+2024-07-25 09:12:52.820 [info] > conda info --json
+2024-07-25 09:12:52.820 [info] > hatch env show --json
+2024-07-25 09:12:52.820 [info] cwd: .
+2024-07-25 09:12:52.820 [info] > pyenv which python
+2024-07-25 09:12:52.820 [info] cwd: .
+2024-07-25 09:12:52.821 [info] Found: /bin/python --> /usr/bin/python3.10
+2024-07-25 09:12:52.822 [info] Found: /bin/python2 --> /bin/python2.7
+2024-07-25 09:12:52.822 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-07-25 09:12:52.822 [info] Found: /bin/python3 --> /bin/python3.10
+2024-07-25 09:12:52.823 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-07-25 09:12:52.836 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2024-07-25 09:12:52.837 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-07-25 09:12:52.837 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-07-25 09:12:52.837 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-07-25 09:12:52.837 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-07-25 09:12:52.893 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:52.919 [info] > /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:52.959 [info] > /bin/python3 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:52.967 [warning] Error: Command failed: /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-07-25 09:12:52.967 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-07-25 09:12:52.984 [info] > /bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:53.006 [info] > /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:53.012 [warning] Error: Command failed: /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-07-25 09:12:53.012 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-07-25 09:12:53.030 [info] > /usr/bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-07-25 09:12:53.084 [info] Python interpreter path: /bin/python
+2024-07-25 09:12:54.961 [info] Starting Jedi language server for kittanaiyam.
+2024-07-25 09:16:15.476 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:24.812 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:33.321 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:34.611 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:40.319 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:47.793 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:53.955 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:56.513 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:58.400 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:17:59.635 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:18:45.745 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:18:47.161 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:05.543 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:07.954 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:14.743 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:18.635 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:27.900 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:32.666 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:35.725 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:38.987 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:42.506 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:19:46.016 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:21:00.243 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:21:02.554 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:21:31.887 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:21:33.078 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:21:45.665 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:23:28.438 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:23:42.288 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:23:47.066 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:23:51.899 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:23:53.369 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:01.787 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:05.326 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:07.497 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:10.744 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:15.284 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:19.276 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:25.731 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:24:56.710 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:25:03.750 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:27:11.332 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:27:13.416 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:12.193 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:15.360 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:19.051 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:20.134 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:23.994 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:28.464 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:30.819 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:32.185 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:33.336 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:37.006 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:28:42.800 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:31:20.149 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:31:22.427 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:31:55.193 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:34:31.443 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:32.044 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:35.479 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:39.567 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:41.684 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:43.083 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:47.222 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:49.600 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:51.312 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:54.015 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:55.743 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:35:58.081 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:36:02.702 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:36:14.811 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:36:34.882 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:36:37.793 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:36:49.800 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:01.760 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:04.917 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:32.501 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:33.738 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:39.128 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:40.663 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:46.091 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:50.099 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:54.717 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:37:57.885 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:00.476 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:03.286 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:08.010 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:11.785 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:15.232 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:20.000 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:21.465 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:23.433 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:29.085 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:35.909 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:38.210 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:41.551 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:44.117 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:48.108 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:55.834 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:57.829 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:38:59.208 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:03.508 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:04.840 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:06.464 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:10.460 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:13.971 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:48.962 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:39:54.269 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:01.526 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:04.427 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:06.244 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:12.780 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:25.234 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:28.313 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:32.072 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:44.332 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:53.024 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:55.155 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:57.194 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:40:58.665 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 09:41:52.049 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py

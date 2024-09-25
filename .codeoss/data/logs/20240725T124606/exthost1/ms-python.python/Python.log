@@ -1,0 +1,18 @@
+2024-07-25 12:46:13.847 [info] Default formatter is set to null for workspace /home/kittanaiyam
+2024-07-25 12:46:13.848 [info] Test server listening.
+2024-07-25 12:46:13.848 [info] Python interpreter path: /bin/python
+2024-07-25 12:46:14.103 [info] > pyenv which python
+2024-07-25 12:46:14.103 [info] cwd: .
+2024-07-25 12:46:17.570 [info] Starting Jedi language server for kittanaiyam.
+2024-07-25 12:48:30.901 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:48:33.930 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:48:35.334 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:49:21.015 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:49:22.390 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:49:23.894 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:49:25.404 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:50:46.730 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:50:49.314 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:55:41.054 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 12:56:46.809 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py
+2024-07-25 13:01:08.564 [info] Discover tests for workspace name: kittanaiyam - uri: /home/kittanaiyam/workshop/workshop3.py

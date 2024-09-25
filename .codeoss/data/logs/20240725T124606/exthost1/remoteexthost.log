@@ -1,0 +1,22 @@
+2024-07-25 12:46:13.029 [info] Extension host with pid 1199 started
+2024-07-25 12:46:13.029 [error] Error: EEXIST: file already exists, open '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock'
+2024-07-25 12:46:13.048 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-25 12:46:13.049 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': The pid 2718 appears to be gone.
+2024-07-25 12:46:13.049 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Deleting a stale lock.
+2024-07-25 12:46:13.060 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Lock acquired.
+2024-07-25 12:46:13.163 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-07-25 12:46:13.165 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-25 12:46:13.823 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-25 12:46:13.921 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-25 12:46:13.922 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-25 12:46:14.258 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2024-07-25 12:46:14.391 [info] Eager extensions activated
+2024-07-25 12:46:14.391 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 12:46:14.392 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 12:46:14.392 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 12:46:14.393 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 12:46:17.211 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 12:46:17.212 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-25 13:23:04.455 [info] Extension host terminating: received terminate message from renderer
+2024-07-25 13:23:04.456 [info] Lock '/home/kittanaiyam/.codeoss/data/User/workspaceStorage/66152baf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-25 13:23:04.500 [info] Extension host with pid 1199 exiting with code 0
